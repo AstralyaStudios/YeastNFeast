@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "cuts=0": { "model": "yeastnfeast:block/freshwheel" },
+    "cuts=1": { "model": "yeastnfeast:block/freshwheel_sliced1" },
+    "cuts=2": { "model": "yeastnfeast:block/freshwheel_sliced2" },
+    "cuts=3": { "model": "yeastnfeast:block/freshwheel_sliced3" }
+  }
+}

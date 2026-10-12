@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/grain"
+    },
+    {
+      "tag": "c:crops/grain"
+    },
+    {
+      "item": "yeastnfeast:molasses"
+    },
+    {
+      "item": "yeastnfeast:yeast"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:molasses_bread"
+  }
+}

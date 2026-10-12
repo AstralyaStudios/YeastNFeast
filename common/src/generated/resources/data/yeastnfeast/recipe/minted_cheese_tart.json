@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "tag": "c:foods/milk"
+    },
+    "P": {
+      "tag": "c:crops/grain"
+    },
+    "R": {
+      "item": "yeastnfeast:mint"
+    },
+    "S": {
+      "item": "yeastnfeast:freshwheel_slice"
+    },
+    "T": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " R ",
+    "STS",
+    "PHP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:minted_cheese_tart"
+  }
+}

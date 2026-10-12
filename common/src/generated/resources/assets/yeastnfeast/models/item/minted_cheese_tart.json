@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yeastnfeast:item/minted_cheese_tart"
+  }
+}

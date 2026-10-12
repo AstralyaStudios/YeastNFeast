@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "elderberries",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_elderberries"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:elderberries"
+  }
+}

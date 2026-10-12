@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "lemon",
+  "key": {
+    "#": {
+      "item": "yeastnfeast:lemon"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:bag_of_lemon"
+  }
+}

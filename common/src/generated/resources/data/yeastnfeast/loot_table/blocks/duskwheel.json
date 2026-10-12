@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "yeastnfeast:duskwheel",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "cuts": "0"
+                  }
+                }
+              ],
+              "name": "yeastnfeast:duskwheel"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "yeastnfeast:duskwheel",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "cuts": "1"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 3.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "yeastnfeast:duskwheel_slice"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "yeastnfeast:duskwheel",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "cuts": "2"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "yeastnfeast:duskwheel_slice"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "yeastnfeast:duskwheel",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "cuts": "3"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 1.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "yeastnfeast:duskwheel_slice"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "yeastnfeast:blocks/duskwheel"
+}

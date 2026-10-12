@@ -1,0 +1,8 @@
+{
+  "parent": "yeastnfeast:block/feast_table_south_end",
+  "textures": {
+    "log": "minecraft:block/cherry_log",
+    "particle": "minecraft:block/cherry_log",
+    "planks": "minecraft:block/cherry_planks"
+  }
+}

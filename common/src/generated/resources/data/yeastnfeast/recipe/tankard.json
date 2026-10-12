@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "S S",
+    "PSP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:tankard"
+  }
+}

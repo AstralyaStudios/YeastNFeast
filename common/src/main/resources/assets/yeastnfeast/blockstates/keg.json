@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "yeastnfeast:block/keg",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "yeastnfeast:block/keg"
+    },
+    "facing=south": {
+      "model": "yeastnfeast:block/keg",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yeastnfeast:block/keg",
+      "y": 270
+    }
+  }
+}

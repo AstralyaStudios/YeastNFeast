@@ -1,0 +1,46 @@
+{
+  "parent": "yeastnfeast:keg_stand",
+  "criteria": {
+    "has_sour_mead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:sour_mead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_thornberry_mead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:thornberry_mead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.sour.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:sour_mead"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.sour.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_sour_mead"
+    ],
+    [
+      "has_thornberry_mead"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

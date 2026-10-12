@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "thistle",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_thistle"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:thistle"
+  }
+}

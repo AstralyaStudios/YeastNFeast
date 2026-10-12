@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "tag": "c:foods/milk"
+    },
+    "P": {
+      "tag": "c:crops/grain"
+    },
+    "S": {
+      "item": "minecraft:apple"
+    },
+    "T": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " S ",
+    "STS",
+    "PHP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:apple_pie"
+  }
+}

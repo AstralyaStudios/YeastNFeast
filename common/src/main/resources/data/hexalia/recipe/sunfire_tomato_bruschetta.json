@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    { "item": "minecraft:bread" },
+    { "item": "hexalia:sunfire_tomato" },
+    { "item": "yeastnfeast:garlic" }
+  ],
+  "result": {
+    "id": "yeastnfeast:sunfire_tomato_bruschetta"
+  },
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "hexalia" }
+  ],
+  "fabric:load_conditions": [
+    { "condition": "fabric:all_mods_loaded", "values": ["hexalia"] }
+  ]
+}

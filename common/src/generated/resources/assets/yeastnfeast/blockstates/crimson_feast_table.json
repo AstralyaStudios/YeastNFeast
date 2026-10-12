@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "connection=end_left,facing=east": {
+      "model": "yeastnfeast:block/crimson_feast_table_north_end"
+    },
+    "connection=end_left,facing=north": {
+      "model": "yeastnfeast:block/crimson_feast_table_west_end"
+    },
+    "connection=end_left,facing=south": {
+      "model": "yeastnfeast:block/crimson_feast_table_east_end"
+    },
+    "connection=end_left,facing=west": {
+      "model": "yeastnfeast:block/crimson_feast_table_south_end"
+    },
+    "connection=end_right,facing=east": {
+      "model": "yeastnfeast:block/crimson_feast_table_south_end"
+    },
+    "connection=end_right,facing=north": {
+      "model": "yeastnfeast:block/crimson_feast_table_east_end"
+    },
+    "connection=end_right,facing=south": {
+      "model": "yeastnfeast:block/crimson_feast_table_west_end"
+    },
+    "connection=end_right,facing=west": {
+      "model": "yeastnfeast:block/crimson_feast_table_north_end"
+    },
+    "connection=middle,facing=east": {
+      "model": "yeastnfeast:block/crimson_feast_table_north_south_middle"
+    },
+    "connection=middle,facing=north": {
+      "model": "yeastnfeast:block/crimson_feast_table_east_west_middle"
+    },
+    "connection=middle,facing=south": {
+      "model": "yeastnfeast:block/crimson_feast_table_east_west_middle"
+    },
+    "connection=middle,facing=west": {
+      "model": "yeastnfeast:block/crimson_feast_table_north_south_middle"
+    },
+    "connection=single,facing=east": {
+      "model": "yeastnfeast:block/crimson_feast_table_single"
+    },
+    "connection=single,facing=north": {
+      "model": "yeastnfeast:block/crimson_feast_table_single"
+    },
+    "connection=single,facing=south": {
+      "model": "yeastnfeast:block/crimson_feast_table_single"
+    },
+    "connection=single,facing=west": {
+      "model": "yeastnfeast:block/crimson_feast_table_single"
+    }
+  }
+}

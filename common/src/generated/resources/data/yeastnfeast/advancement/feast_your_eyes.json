@@ -1,0 +1,76 @@
+{
+  "parent": "yeastnfeast:harvest_season",
+  "criteria": {
+    "forager_feast": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:forager_feast"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "herbal_cod": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:herbal_cod"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "lemon_chicken": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:lemon_glazed_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "maple_rabbit": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:maple_glazed_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mead_pork": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:mead_braised_pork"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.plate.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:maple_glazed_rabbit"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.plate.title"
+    }
+  },
+  "requirements": [
+    [
+      "mead_pork"
+    ],
+    [
+      "herbal_cod"
+    ],
+    [
+      "lemon_chicken"
+    ],
+    [
+      "forager_feast"
+    ],
+    [
+      "maple_rabbit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

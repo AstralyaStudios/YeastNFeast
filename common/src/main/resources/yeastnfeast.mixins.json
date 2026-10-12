@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.astralya.yeastnfeast.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "mixins.yeastnfeast.refmap.json",
+  "mixins": [
+    "FoodDataMixin",
+    "HealingMixin",
+    "LivingEntityEatMixin",
+    "PlayerCheesePairingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

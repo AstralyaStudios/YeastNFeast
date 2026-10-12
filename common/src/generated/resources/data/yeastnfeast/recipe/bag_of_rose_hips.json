@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rose_hips",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_rose_hips"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:rose_hips"
+  }
+}

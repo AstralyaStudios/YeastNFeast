@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_yeast": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:yeast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "yeastnfeast:textures/block/maple_log.png",
+    "description": {
+      "translate": "advancements.yeastnfeast.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:yeast"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_yeast"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

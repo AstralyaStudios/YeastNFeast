@@ -1,0 +1,46 @@
+{
+  "parent": "yeastnfeast:keg_stand",
+  "criteria": {
+    "has_amber_mead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:amber_mead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blossom_mead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:blossom_mead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.floral.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:blossom_mead"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.floral.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_blossom_mead"
+    ],
+    [
+      "has_amber_mead"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

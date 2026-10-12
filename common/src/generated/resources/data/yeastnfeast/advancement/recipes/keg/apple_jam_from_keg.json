@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:jar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:apple_jam_from_keg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_jar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:apple_jam_from_keg"
+    ]
+  }
+}

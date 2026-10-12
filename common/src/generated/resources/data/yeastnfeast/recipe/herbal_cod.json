@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yeastnfeast:mint"
+    },
+    {
+      "item": "yeastnfeast:ginger"
+    },
+    {
+      "item": "yeastnfeast:lemon"
+    },
+    {
+      "tag": "c:foods/cooked_cod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:herbal_cod"
+  }
+}

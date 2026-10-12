@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "ginger",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_ginger"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:ginger"
+  }
+}

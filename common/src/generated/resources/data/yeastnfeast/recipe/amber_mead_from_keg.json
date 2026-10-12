@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 7200,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:tankard"
+  },
+  "ingredients": [
+    {
+      "item": "yeastnfeast:rye"
+    },
+    {
+      "item": "yeastnfeast:maple_syrup"
+    },
+    {
+      "item": "yeastnfeast:rose_hips"
+    }
+  ],
+  "liquid_color": "#C58B38",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:amber_mead"
+  },
+  "servings": 4,
+  "yeast_slot": {
+    "item": "yeastnfeast:yeast"
+  }
+}

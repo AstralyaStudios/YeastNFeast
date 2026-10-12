@@ -1,0 +1,65 @@
+{
+  "parent": "yeastnfeast:harvest_season",
+  "criteria": {
+    "barley_stew": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:barley_and_beef_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "salmon_chowder": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:salmon_chowder"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "spiced_porridge": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:spiced_porridge"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_porridge": {
+      "conditions": {
+        "item": {
+          "items": "yeastnfeast:sweet_porridge"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.bowl.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:barley_and_beef_stew"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.bowl.title"
+    }
+  },
+  "requirements": [
+    [
+      "sweet_porridge"
+    ],
+    [
+      "spiced_porridge"
+    ],
+    [
+      "barley_stew"
+    ],
+    [
+      "salmon_chowder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

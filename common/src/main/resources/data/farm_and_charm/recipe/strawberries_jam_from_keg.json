@@ -1,0 +1,29 @@
+{
+  "type": "yeastnfeast:keg",
+  "servings": 1,
+  "extraction_container": { "item": "yeastnfeast:jar" },
+  "liquid_color": "#A45C72",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "ingredients": [
+    { "item": "farm_and_charm:strawberry" },
+    { "item": "farm_and_charm:strawberry" },
+    { "item": "farm_and_charm:strawberry" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:strawberries_jam"
+  },
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "fabric:load_conditions": [
+    { "condition": "fabric:all_mods_loaded", "values": ["farm_and_charm"] }
+  ]
+}

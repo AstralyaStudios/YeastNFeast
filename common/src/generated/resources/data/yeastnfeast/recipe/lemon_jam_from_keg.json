@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:jar"
+  },
+  "ingredients": [
+    {
+      "item": "yeastnfeast:lemon"
+    },
+    {
+      "item": "yeastnfeast:lemon"
+    },
+    {
+      "item": "yeastnfeast:lemon"
+    }
+  ],
+  "liquid_color": "#D6AA45",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:lemon_jam"
+  },
+  "servings": 1,
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  }
+}

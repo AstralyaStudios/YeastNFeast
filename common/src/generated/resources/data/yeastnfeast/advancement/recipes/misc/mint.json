@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:mint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:mint"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mint"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:mint"
+    ]
+  }
+}

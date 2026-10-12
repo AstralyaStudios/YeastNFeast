@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sharpwheel_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:sharpwheel_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:stuffed_rye_dumplings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sharpwheel_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:stuffed_rye_dumplings"
+    ]
+  }
+}

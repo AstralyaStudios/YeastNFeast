@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duskwheel_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:duskwheel_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:duskwheel_skewer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_duskwheel_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:duskwheel_skewer"
+    ]
+  }
+}

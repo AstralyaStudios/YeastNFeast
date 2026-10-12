@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:jar"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "liquid_color": "#A45C72",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:melon_jam"
+  },
+  "servings": 1,
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  }
+}

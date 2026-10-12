@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_barley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:barley"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:barley"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_barley"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:barley"
+    ]
+  }
+}

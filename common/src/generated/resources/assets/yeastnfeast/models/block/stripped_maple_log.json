@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "yeastnfeast:block/stripped_maple_log_top",
+    "side": "yeastnfeast:block/stripped_maple_log"
+  }
+}

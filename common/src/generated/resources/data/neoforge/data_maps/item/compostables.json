@@ -1,0 +1,97 @@
+{
+  "values": {
+    "yeastnfeast:apple_pie": {
+      "chance": 1.0
+    },
+    "yeastnfeast:barley": {
+      "chance": 0.6
+    },
+    "yeastnfeast:barley_block": {
+      "chance": 0.8
+    },
+    "yeastnfeast:barley_bread": {
+      "chance": 0.8
+    },
+    "yeastnfeast:barley_seeds": {
+      "chance": 0.3
+    },
+    "yeastnfeast:berry_roll": {
+      "chance": 1.0
+    },
+    "yeastnfeast:elderberries": {
+      "chance": 0.3
+    },
+    "yeastnfeast:elderberry_pie": {
+      "chance": 1.0
+    },
+    "yeastnfeast:flowering_hawthorn_tree_leaves": {
+      "chance": 0.3
+    },
+    "yeastnfeast:flowering_lemon_tree_leaves": {
+      "chance": 0.3
+    },
+    "yeastnfeast:garlic": {
+      "chance": 0.6
+    },
+    "yeastnfeast:ginger": {
+      "chance": 0.6
+    },
+    "yeastnfeast:hawthorn_berries": {
+      "chance": 0.3
+    },
+    "yeastnfeast:hawthorn_sapling": {
+      "chance": 0.3
+    },
+    "yeastnfeast:hawthorn_tree_leaves": {
+      "chance": 0.3
+    },
+    "yeastnfeast:lemon": {
+      "chance": 0.3
+    },
+    "yeastnfeast:lemon_sapling": {
+      "chance": 0.3
+    },
+    "yeastnfeast:lemon_tree_leaves": {
+      "chance": 0.3
+    },
+    "yeastnfeast:maple_sapling": {
+      "chance": 0.3
+    },
+    "yeastnfeast:mint": {
+      "chance": 0.6
+    },
+    "yeastnfeast:mint_seeds": {
+      "chance": 0.3
+    },
+    "yeastnfeast:minted_cheese_tart": {
+      "chance": 1.0
+    },
+    "yeastnfeast:molasses_bread": {
+      "chance": 0.8
+    },
+    "yeastnfeast:quiche": {
+      "chance": 1.0
+    },
+    "yeastnfeast:rose_hips": {
+      "chance": 0.3
+    },
+    "yeastnfeast:rose_tart": {
+      "chance": 1.0
+    },
+    "yeastnfeast:rye": {
+      "chance": 0.6
+    },
+    "yeastnfeast:rye_block": {
+      "chance": 0.8
+    },
+    "yeastnfeast:rye_bread": {
+      "chance": 0.8
+    },
+    "yeastnfeast:rye_seeds": {
+      "chance": 0.3
+    },
+    "yeastnfeast:thistle": {
+      "chance": 0.6
+    }
+  }
+}

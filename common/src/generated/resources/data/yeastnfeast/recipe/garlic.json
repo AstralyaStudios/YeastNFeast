@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "garlic",
+  "key": {
+    "#": {
+      "item": "yeastnfeast:garlic"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:bag_of_garlic"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mint",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_mint"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:mint"
+  }
+}

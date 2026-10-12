@@ -1,0 +1,8 @@
+{
+  "parent": "yeastnfeast:block/feast_table_east_west_middle",
+  "textures": {
+    "log": "minecraft:block/acacia_log",
+    "particle": "minecraft:block/acacia_log",
+    "planks": "minecraft:block/acacia_planks"
+  }
+}

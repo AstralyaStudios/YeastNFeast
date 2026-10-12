@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:jar"
+  },
+  "ingredients": [
+    {
+      "item": "yeastnfeast:rose_hips"
+    },
+    {
+      "item": "yeastnfeast:rose_hips"
+    },
+    {
+      "item": "yeastnfeast:rose_hips"
+    }
+  ],
+  "liquid_color": "#A45C72",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:rose_hips_jam"
+  },
+  "servings": 1,
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  }
+}

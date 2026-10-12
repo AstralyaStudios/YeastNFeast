@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rye",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:rye_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:rye"
+  }
+}

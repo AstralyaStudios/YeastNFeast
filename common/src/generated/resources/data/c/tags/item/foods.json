@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#c:foods/milk",
+    "yeastnfeast:molasses",
+    "yeastnfeast:milk_bottle",
+    "#c:foods/berry",
+    "#c:foods/fruit",
+    "#c:foods/vegetable",
+    "yeastnfeast:sweet_porridge",
+    "yeastnfeast:spiced_porridge",
+    "#c:foods/soup",
+    "yeastnfeast:mead_braised_pork",
+    "yeastnfeast:herbal_cod",
+    "yeastnfeast:lemon_glazed_chicken",
+    "yeastnfeast:forager_feast",
+    "yeastnfeast:maple_glazed_rabbit",
+    "#c:foods/bread",
+    "#c:foods/pie"
+  ]
+}

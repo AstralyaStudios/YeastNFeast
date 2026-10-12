@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yeastnfeast:maple_syrup"
+    },
+    {
+      "item": "yeastnfeast:barley"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:maple_glazed_rabbit"
+  }
+}

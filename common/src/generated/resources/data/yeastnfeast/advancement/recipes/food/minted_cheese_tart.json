@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_freshwheel_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:freshwheel_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:minted_cheese_tart"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_freshwheel_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:minted_cheese_tart"
+    ]
+  }
+}

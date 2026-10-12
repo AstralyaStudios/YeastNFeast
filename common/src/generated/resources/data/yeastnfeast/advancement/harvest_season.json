@@ -1,0 +1,121 @@
+{
+  "parent": "yeastnfeast:root",
+  "criteria": {
+    "barley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:barley"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "elderberries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:elderberries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "garlic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:garlic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ginger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:ginger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hawthorn_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:hawthorn_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lemon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:lemon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:mint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rose_hips": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:rose_hips"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:rye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.crops.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:barley"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.crops.title"
+    }
+  },
+  "requirements": [
+    [
+      "elderberries",
+      "hawthorn_berries",
+      "lemon",
+      "rose_hips",
+      "garlic",
+      "barley",
+      "rye",
+      "mint",
+      "ginger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

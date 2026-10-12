@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "yeastnfeast:block/rose_hips_bush_stage1"
+  }
+}

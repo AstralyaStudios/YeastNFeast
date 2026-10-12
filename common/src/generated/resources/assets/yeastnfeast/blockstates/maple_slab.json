@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "yeastnfeast:block/maple_slab"
+    },
+    "type=double": {
+      "model": "yeastnfeast:block/maple_planks"
+    },
+    "type=top": {
+      "model": "yeastnfeast:block/maple_slab_top"
+    }
+  }
+}

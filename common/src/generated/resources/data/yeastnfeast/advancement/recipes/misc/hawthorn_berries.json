@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hawthorn_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:hawthorn_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:hawthorn_berries"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hawthorn_berries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:hawthorn_berries"
+    ]
+  }
+}

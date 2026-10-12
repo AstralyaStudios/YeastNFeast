@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bag_of_lemon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:bag_of_lemon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:bag_of_lemon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bag_of_lemon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:bag_of_lemon"
+    ]
+  }
+}

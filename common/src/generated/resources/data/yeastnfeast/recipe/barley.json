@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "barley",
+  "key": {
+    "#": {
+      "item": "yeastnfeast:barley"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:barley_block"
+  }
+}

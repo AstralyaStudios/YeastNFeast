@@ -1,0 +1,33 @@
+{
+  "parent": "yeastnfeast:root",
+  "criteria": {
+    "has_keg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:keg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.keg.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:keg"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.keg.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_keg"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

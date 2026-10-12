@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:jar"
+  },
+  "ingredients": [
+    {
+      "item": "yeastnfeast:elderberries"
+    },
+    {
+      "item": "yeastnfeast:elderberries"
+    },
+    {
+      "item": "yeastnfeast:elderberries"
+    }
+  ],
+  "liquid_color": "#78548C",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:elderberries_jam"
+  },
+  "servings": 1,
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  }
+}

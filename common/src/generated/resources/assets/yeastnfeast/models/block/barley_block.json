@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "yeastnfeast:block/grain_top",
+    "side": "yeastnfeast:block/barley_block_side"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "yeastnfeast:block/feast_table_west_end",
+  "textures": {
+    "log": "minecraft:block/bamboo_block",
+    "particle": "minecraft:block/bamboo_block",
+    "planks": "minecraft:block/bamboo_planks"
+  }
+}

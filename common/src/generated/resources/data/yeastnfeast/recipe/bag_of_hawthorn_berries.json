@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hawthorn_berries",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_hawthorn_berries"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:hawthorn_berries"
+  }
+}

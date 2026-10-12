@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "thistle",
+  "key": {
+    "#": {
+      "item": "yeastnfeast:thistle"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:bag_of_thistle"
+  }
+}

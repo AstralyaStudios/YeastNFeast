@@ -1,0 +1,33 @@
+{
+  "parent": "yeastnfeast:keg_stand",
+  "criteria": {
+    "has_jar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:jar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.jar.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:jar"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.jar.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_jar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

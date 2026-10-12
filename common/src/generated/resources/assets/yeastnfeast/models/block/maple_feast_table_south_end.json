@@ -1,0 +1,8 @@
+{
+  "parent": "yeastnfeast:block/feast_table_south_end",
+  "textures": {
+    "log": "yeastnfeast:block/maple_log",
+    "particle": "yeastnfeast:block/maple_log",
+    "planks": "yeastnfeast:block/maple_planks"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 3600,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:jar"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "liquid_color": "#78548C",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:chorus_fruit_jam"
+  },
+  "servings": 1,
+  "yeast_slot": {
+    "item": "minecraft:sugar"
+  }
+}

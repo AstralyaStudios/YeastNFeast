@@ -1,0 +1,7 @@
+{
+  "parent": "yeastnfeast:block/tankard",
+  "textures": {
+    "particle": "yeastnfeast:block/mead",
+    "tankard": "yeastnfeast:block/mead"
+  }
+}

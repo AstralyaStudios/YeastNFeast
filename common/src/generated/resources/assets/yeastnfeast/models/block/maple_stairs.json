@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "yeastnfeast:block/maple_planks",
+    "side": "yeastnfeast:block/maple_planks",
+    "top": "yeastnfeast:block/maple_planks"
+  }
+}

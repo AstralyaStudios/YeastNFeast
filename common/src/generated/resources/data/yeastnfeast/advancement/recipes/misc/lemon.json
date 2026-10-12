@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lemon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:lemon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "yeastnfeast:lemon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lemon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "yeastnfeast:lemon"
+    ]
+  }
+}

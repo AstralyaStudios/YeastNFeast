@@ -1,0 +1,28 @@
+{
+  "type": "yeastnfeast:keg",
+  "brewtime": 7200,
+  "experience": 0.3,
+  "extraction_container": {
+    "item": "yeastnfeast:tankard"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "liquid_color": "#D6AA45",
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:honey_mead"
+  },
+  "servings": 4,
+  "yeast_slot": {
+    "item": "yeastnfeast:yeast"
+  }
+}

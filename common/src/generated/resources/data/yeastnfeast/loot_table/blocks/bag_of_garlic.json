@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "yeastnfeast:bag_of_garlic"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "yeastnfeast:blocks/bag_of_garlic"
+}

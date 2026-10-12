@@ -1,0 +1,33 @@
+{
+  "parent": "yeastnfeast:root",
+  "criteria": {
+    "has_maple_syrup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:maple_syrup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.maple.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:maple_syrup"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.maple.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_maple_syrup"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,pressing=false": { "model": "yeastnfeast:block/cheese_press" },
+    "facing=east,pressing=false":  { "model": "yeastnfeast:block/cheese_press", "y": 90 },
+    "facing=south,pressing=false": { "model": "yeastnfeast:block/cheese_press", "y": 180 },
+    "facing=west,pressing=false":  { "model": "yeastnfeast:block/cheese_press", "y": 270 },
+
+    "facing=north,pressing=true":  { "model": "yeastnfeast:block/cheese_press_on" },
+    "facing=east,pressing=true":   { "model": "yeastnfeast:block/cheese_press_on", "y": 90 },
+    "facing=south,pressing=true":  { "model": "yeastnfeast:block/cheese_press_on", "y": 180 },
+    "facing=west,pressing=true":   { "model": "yeastnfeast:block/cheese_press_on", "y": 270 }
+  }
+}

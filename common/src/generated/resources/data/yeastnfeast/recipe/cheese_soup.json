@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:foods/cheese"
+    },
+    {
+      "tag": "c:foods/cheese"
+    },
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "yeastnfeast:rye"
+    },
+    {
+      "item": "yeastnfeast:garlic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:cheese_soup"
+  }
+}

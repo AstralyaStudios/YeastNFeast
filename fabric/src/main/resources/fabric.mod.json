@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "yeastnfeast",
+  "version": "${version}",
+  "name": "Yeast 'n Feast",
+  "description": "A mod centered around brewing Mead and crafting food items that range from elaborate dishes to delicious Jams.",
+  "authors": ["Astralya Studios"],
+  "license": "MIT",
+  "icon": "assets/yeastnfeast/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.astralya.yeastnfeast.fabric.YeastNFeastFabric"],
+    "client": ["net.astralya.yeastnfeast.fabric.YeastNFeastFabricClient"]
+  },
+  "mixins": ["yeastnfeast.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}

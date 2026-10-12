@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yeastnfeast:honey_mead"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "item": "yeastnfeast:barley"
+    },
+    {
+      "tag": "c:foods/cooked_pork"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:mead_braised_pork"
+  }
+}

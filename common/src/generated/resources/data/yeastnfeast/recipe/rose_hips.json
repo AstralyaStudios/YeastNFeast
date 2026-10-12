@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rose_hips",
+  "key": {
+    "#": {
+      "item": "yeastnfeast:rose_hips"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:bag_of_rose_hips"
+  }
+}

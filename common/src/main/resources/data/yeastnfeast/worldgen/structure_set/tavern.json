@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "yeastnfeast:tavern",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 911716,
+    "spacing": 30,
+    "separation": 10
+  }
+}

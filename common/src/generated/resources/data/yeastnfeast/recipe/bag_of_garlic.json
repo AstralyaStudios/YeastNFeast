@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garlic",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:bag_of_garlic"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yeastnfeast:garlic"
+  }
+}

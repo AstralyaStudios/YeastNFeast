@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,dripping=false": {
+      "model": "yeastnfeast:block/tree_tap",
+      "y": 90
+    },
+    "facing=east,dripping=true": {
+      "model": "yeastnfeast:block/tree_tap_dripping",
+      "y": 90
+    },
+    "facing=north,dripping=false": {
+      "model": "yeastnfeast:block/tree_tap"
+    },
+    "facing=north,dripping=true": {
+      "model": "yeastnfeast:block/tree_tap_dripping"
+    },
+    "facing=south,dripping=false": {
+      "model": "yeastnfeast:block/tree_tap",
+      "y": 180
+    },
+    "facing=south,dripping=true": {
+      "model": "yeastnfeast:block/tree_tap_dripping",
+      "y": 180
+    },
+    "facing=west,dripping=false": {
+      "model": "yeastnfeast:block/tree_tap",
+      "y": 270
+    },
+    "facing=west,dripping=true": {
+      "model": "yeastnfeast:block/tree_tap_dripping",
+      "y": 270
+    }
+  }
+}

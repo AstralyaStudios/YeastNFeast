@@ -1,0 +1,151 @@
+{
+  "parent": "yeastnfeast:jar_for_sake",
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:apple_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chorus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:chorus_fruit_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "elderberries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:elderberries_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:glow_berries_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:golden_apple_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hawthorn_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:hawthorn_berries_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lemon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:lemon_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "melon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:melon_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rose_hips": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:rose_hips_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yeastnfeast:sweet_berries_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.yeastnfeast.jam.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "yeastnfeast:apple_jam"
+    },
+    "title": {
+      "translate": "advancements.yeastnfeast.jam.title"
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ],
+    [
+      "chorus"
+    ],
+    [
+      "elderberries"
+    ],
+    [
+      "glow_berries"
+    ],
+    [
+      "golden_apple"
+    ],
+    [
+      "hawthorn_berries"
+    ],
+    [
+      "lemon"
+    ],
+    [
+      "melon"
+    ],
+    [
+      "rose_hips"
+    ],
+    [
+      "sweet_berries"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

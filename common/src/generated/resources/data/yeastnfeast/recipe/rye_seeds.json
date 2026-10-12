@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yeastnfeast:rye"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yeastnfeast:rye_seeds"
+  }
+}

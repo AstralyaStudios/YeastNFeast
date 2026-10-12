@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "yeastnfeast:block/flowering_hawthorn_tree_leaves_stage0"
+    },
+    "age=1": {
+      "model": "yeastnfeast:block/flowering_hawthorn_tree_leaves_stage1"
+    },
+    "age=2": {
+      "model": "yeastnfeast:block/flowering_hawthorn_tree_leaves_stage2"
+    }
+  }
+}
