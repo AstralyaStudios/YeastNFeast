@@ -128,6 +128,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FLOWER_POTS)
                 .add(ModBlocks.POTTED_LEMON_SAPLING)
                 .add(ModBlocks.POTTED_HAWTHORN_SAPLING)
+                .add(ModBlocks.POTTED_THISTLE)
                 .add(ModBlocks.POTTED_MAPLE_SAPLING);
     }
 

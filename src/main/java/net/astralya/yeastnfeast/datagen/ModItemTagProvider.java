@@ -108,6 +108,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ModTags.Items.BREAD_FOODS)
                 .add(ModItems.BARLEY_BREAD)
+                .add(Items.BREAD)
                 .add(ModItems.MOLASSES_BREAD)
                 .add(ModItems.RYE_BREAD);
 
@@ -179,6 +180,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ModTags.Items.GRAINS)
                 .add(ModItems.BARLEY)
+                .add(Items.WHEAT)
                 .add(ModItems.RYE);
 
         getOrCreateTagBuilder(ModTags.Items.WHEAT_CROPS)
